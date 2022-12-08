@@ -157,7 +157,6 @@ main, aside {
 */
 footer {
     padding: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
@@ -178,8 +177,9 @@ footer p em {
 /*======================================================================================================*/
 
 /* 
-*   Added basic responsiveness because while I was working on this project in narrow window and it was uncomfortable. 
-*   Not related to project task. 
+*   Added basic responsiveness because while I was working on this project in narrow window 
+*   and it was uncomfortable. 
+*   Not related to the project task. 
 *   Using non-standard breakpoints custom to this layout.
 */
 @media ( max-width: 1039.999px ) {
@@ -205,10 +205,10 @@ footer p em {
 }
 
 @media ( (min-width: 768px) and (max-width: 1039.999px) ) {
-    /*  Display benefits blocks horizontally, but only while they are large enough to fit inline    */
     .benefits {
         width: 90%;
     }
+    /*  Display benefits blocks horizontally, but only while they are large enough to fit inline    */
     .benefits--group {
         float: left;
         width: calc( 100% / 3);
