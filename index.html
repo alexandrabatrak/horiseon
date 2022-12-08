@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <!--  Relevant title  -->
+    <title>Horiseon Social Solution Services</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+    <!--  Header  -->
+    <header>
+        <!--  Title with emphatised part of the text 'SEO' -->
+        <h1>Hori<em>seo</em>n</h1>
+        <!--  Navigation  -->
+        <nav class="float-right clearfix">
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -19,43 +23,59 @@
                     <a href="#online-reputation-management">Online Reputation Management</a>
                 </li>
                 <li>
-                    <a href="#social-media-marketing">Social Media Marketing!</a>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+        </nav>
+        <!--  end of Navigation  -->
+    </header>
+    <!--  Hero section  -->
+    <section class="header header--hero">
+        <!--
+            Full width Hero Image
+            `<img>` tag provides better accesibility and is more suitable for print.
+        -->
+        <img id="hero" alt="Horiseon Digital Marketing meeting illustration" class="bg-image" src="./assets/images/digital-marketing-meeting.jpg"/>
+    </section>
+    <!--  end of Hero section  -->
+    <!--  Content  -->
+    <main class="content">
+        <section id="search-engine-optimization" class="content--section">
+            <img src="./assets/images/search-engine-optimization.jpg" alt="SEO schematics drawn on a notepad staged on the table with desk accessories, laptop and a cup of coffee." class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they
                 travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
                 your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+        </section>
+        <section id="online-reputation-management" class="content--section">
+            <img src="./assets/images/online-reputation-management.jpg" title="Online Reputation Management illustration" alt ="Photo of a man holding a phone and looking at the laptop screen with statistics illustration titled 'Reputation'" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an
                 internet connection to say whatever they want about your business. Online Reputation Management gives
                 you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+        </section>
+        <section id="social-media-marketing" class="content--section">
+            <img src="./assets/images/social-media-marketing.jpg" alt="Top view photo of six people around the table with social cut outs" title="Social media marketing illustration" class="float-right" id="1"/>
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you
                 determine which platforms are suited to your brand, using analytics to find the right markets and
                 increase your lead generation.
             </p>
-        </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+        </section>
+    </main>
+    <!-- end of Content  -->
+    <!--  Benefits (sidebar) -->
+    <aside class="benefits float-right clearfix">
+    <!--
+        Choice of not using `<section>` tag and keep the `<div>`s inside `<aside>` element followed by https://html.spec.whatwg.org/multipage/sections.html#the-aside-element reference:
+        "The section element is not a generic container element. When an element is needed only for styling purposes or as a convenience for scripting, authors are encouraged to use the div element instead. A general rule is that the section element is appropriate only if the element's contents would be listed explicitly in the document's outline."
+    -->
+        <div id="benefit-lead" class="benefits--group">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
             <p>
@@ -63,7 +83,7 @@
                 to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div id="benefit-brand" class="benefits--group">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" />
             <p>
@@ -71,7 +91,7 @@
                 for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div id="benefit-cost" class="benefits--group">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png"></img>
             <p>
@@ -79,13 +99,15 @@
                 need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+    </aside>
+    <!--  end of Benefits  -->
+    <!--  Footer  -->
+    <footer class="clearfix">
         <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
+            <em>Made with ❤️️ by Horiseon</em> &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
+    <!--  end of Footer  -->
 </body>
 
 </html>
