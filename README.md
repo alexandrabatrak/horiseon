@@ -1,4 +1,4 @@
-# Horiseon
+# Hori<i>seo</i>n
 ## Week 01: html-css-git challenge
 
 Bootcamp challenge for website improvement for better **accessibility**.
