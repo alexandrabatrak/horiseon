@@ -33,7 +33,7 @@ em {
 
 .float-right {
     float: right;
-    /* margin-left: 25px; */ /* moved it to @media ( min-width: 1300px ) for correct display */
+    margin-left: 25px;
 }
 
 /*
@@ -216,8 +216,8 @@ footer p em {
     }
 }
 
-@media ( min-width: 1300px ) {
-    .float-right {
-        margin-left: 25px;
+@media ( (min-width: 768px) and (max-width: 1300px) ) {
+    .benefits.float-right {
+        margin-left: 0;
     }
 }
