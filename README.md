@@ -1,11 +1,9 @@
-# Horiseon
+# Hori<i>seo</i>n
 ## Week 01: html-css-git challenge
 
 Bootcamp challenge for website improvement for better **accessibility**.
 
-## Final product
-
-You can view the project @ 
+You can view the project @<a href="https://alexandrabatrak.github.io/horiseon/">Horiseon</a>
 
 ### User Story
 
@@ -22,9 +20,9 @@ Sucessfully improved the source so that website must meet accessibility standard
 * Title elements contain a concise, descriptive title
 
 In addition:
-* Reorganised and updated following new HTML structure style file
-* Added extra SCSS-ready classes for repetitive elements
+* Reorganised style file
 * Added basic responsiveness
-## License
+
+### License
 
 Refer to LICENSE.
