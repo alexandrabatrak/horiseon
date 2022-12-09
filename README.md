@@ -5,9 +5,7 @@ Bootcamp challenge for website improvement for better **accessibility**.
 
 You can view the project @<a href="https://alexandrabatrak.github.io/horiseon/">Horiseon</a>
 
-```md
 ![Horiseon Showcase](assets/images/horiseon-screenshot.jpg)
-```
 
 ### User Story
 
