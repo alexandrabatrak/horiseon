@@ -216,7 +216,7 @@ footer p em {
     }
 }
 
-@media ( (min-width: 768px) and (max-width: 1300px) ) {
+@media ( (min-width: 1040px) and (max-width: 1300px) ) {
     .benefits.float-right {
         margin-left: 0;
     }
