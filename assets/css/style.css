@@ -135,7 +135,8 @@ nav a {
     padding: 20px;
     width: 20%;
     min-height: calc( 320px*3 - 20px ); /* height based off overall height of content section */
-    background-color: #2589bd;
+    background-color: #0C7AB6;  /* WCAG AA: Pass */
+
 }
 
 .benefits--group {
