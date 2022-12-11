@@ -120,6 +120,7 @@ nav a {
 
 .content--section img {
     max-height: 200px;
+    width: auto;    /* necessary to override @media rules */
 }
 
 .content--section h2 {
@@ -131,12 +132,12 @@ nav a {
 *   Benefits aside
 */
 .benefits {
+    float: right;
     margin-right: 20px;
     padding: 20px;
-    width: 20%;
     min-height: calc( 320px*3 - 20px ); /* height based off overall height of content section */
+    width: 20%;
     background-color: #0C7AB6;  /* WCAG AA: Pass */
-
 }
 
 .benefits--group {
@@ -178,9 +179,18 @@ footer p:first-of-type {
 *   Using non-standard breakpoints custom to this layout.
 */
 @media ( max-width: 1059.999px ) {
-    .float-left, .float-right {
+    .float-left, .float-right, .benefits {
         float: none;
         margin: 0;
+    }
+
+    header h1 {
+        display: block;
+    }
+
+    nav ul li {
+        display: list-item;
+        padding: 10px 0;
     }
 
     .content {
@@ -193,27 +203,54 @@ footer p:first-of-type {
         height: 100%;
     }
 
+    .content--section img {
+        margin-bottom: 25px;
+    }
+
     .benefits {
-        width: 50%;
         margin: auto;
         min-height: 100%;
-    }
-}
-
-@media ( (min-width: 768px) and (max-width: 1059.999px) ) {
-    .benefits {
         width: 90%;
     }
-    /*  Display benefits blocks horizontally, but only while they are large enough to fit inline    */
-    .benefits--group {
-        float: left;
-        width: calc( 100% / 3);
-        padding: 15px;
+
+    @supports ( height: fit-content ) and ( min-height: fit-content )  {
+        .content--section, .benefits {
+            height: fit-content;
+            min-height: fit-content;
+        }
     }
 }
 
-@media ( (min-width: 1060px) and (max-width: 1300px) ) {
+@media (( min-width: 1060px ) and ( max-width: 1300px )) {
+    nav ul li:first-child {
+        /* fix for nav links, doesn't look it's best on exact width: 1060px */
+        margin-left: 0;
+    }
     .benefits.float-right {
         margin-left: 0;
     }
 }
+
+/*  Display benefits blocks horizontally, but only while they are large enough to fit inline  */
+@media (( min-device-width: 768px ) and ( max-width: 1059.999px )) {
+    .benefits--group {
+        display: inline-block;
+        width: calc( (100% / 3) - 15px );
+        padding: 15px;
+    }
+}
+
+@media ( max-device-width : 767.999px ) {
+    .content--section img {
+        width: 100%;
+        max-height: unset;
+    }
+    .benefits {
+        display: block;
+        text-align: center;
+    }
+    .benefits--group {
+        padding: 20px;
+    }
+}
+
