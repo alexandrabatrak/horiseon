@@ -1,30 +1,35 @@
 # Hori<i>seo</i>n
-## Week 01: html-css-git challenge
 
-Bootcamp challenge for website improvement for better **accessibility**.
+## About
 
-You can view the project @<a href="https://alexandrabatrak.github.io/horiseon/">Horiseon</a>
+Bootcamp week 01: html-css-git challenge: improve webpage source code for better **accessibility**. :blue_heart:
 
-![Horiseon Showcase](assets/images/horiseon-screenshot.jpg)
+### Task
 
-### User Story
-
-A marketing agency requares a codebase that follows accessibility standards so that their own site is optimized for search engines.
+A *marketing agency* requires a codebase that follows accessibility standards for search engine optimization.
 
 ### Solution
 
-Sucessfully improved the source so that website must meet accessibility standards by completing the following:
+Successfully improved the source code so that website meets accessibility standards by completing the following:
 
-* Semantic HTML elements
-* HTML elements follow a better logical structure independent of styling and positioning
-* All image and icon elements are accessible, print friendly and contain necessary attributes
-* Heading attributes fall in sequential order
-* Title elements contain a concise, descriptive title
+- [x] Semantic HTML elements
+- [x] HTML elements follow a better logical structure independent of styling and positioning
+- [x] All image and icon elements are accessible and contain necessary attributes
+- [x] Heading attributes fall in sequential order
+- [x] Title elements contain a concise, descriptive title
+- [x] Organised style file
+- [x] Basic responsiveness (not requested by task)
 
-In addition:
-* Reorganised style file
-* Added basic responsiveness
+View the project @ **[Horiseon](https://alexandrabatrak.github.io/horiseon/)**
 
-### License
+![Horiseon Showcase](assets/images/horiseon-screenshot.jpg)
 
-Refer to LICENSE.
+## Credits
+
+Accesibility [report](https://wave.webaim.org/report#/https://alexandrabatrak.github.io/horiseon/) provided by **WAVE** evaluation tool.
+
+## License
+
+Licenced under the [MIT](/LICENSE) license.
+
+*Copyright © 2022 Alexandra Batrak*
