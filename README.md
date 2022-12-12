@@ -18,7 +18,7 @@ Successfully improved the source code so that website meets accessibility standa
 - [x] Heading attributes fall in sequential order
 - [x] Title elements contain a concise, descriptive title
 - [x] Organised style file
-- [x] Basic responsiveness (not requested by task)
+- [x] Basic responsiveness
 
 View the project @ **[Horiseon](https://alexandrabatrak.github.io/horiseon/)**
 
