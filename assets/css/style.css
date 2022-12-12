@@ -96,7 +96,7 @@ nav a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting2560x.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -232,7 +232,7 @@ footer p:first-of-type {
 }
 
 /*  Display benefits blocks horizontally, but only while they are large enough to fit inline  */
-@media (( min-device-width: 768px ) and ( max-width: 1059.999px )) {
+@media (( min-device-width: 768px ) and ( min-width: 768px ) and ( max-width: 1059.999px )) {
     .benefits--group {
         display: inline-block;
         width: calc( (100% / 3) - 15px );
@@ -240,7 +240,7 @@ footer p:first-of-type {
     }
 }
 
-@media ( max-device-width : 767.999px ) {
+@media ( ( max-device-width : 767.999px ) and ( max-width: 767.999px ) ) {
     .content--section img {
         width: 100%;
         max-height: unset;
