@@ -32,4 +32,6 @@ Accesibility [report](https://wave.webaim.org/report#/https://alexandrabatrak.gi
 
 Licenced under the [MIT](/LICENSE) license.
 
+[![Image of github-profile-views-counter](https://github.com/alexandrabatrak/github-profile-views-counter/blob/master/svg/575984445/badge.svg)](https://github.com/alexandrabatrak/github-profile-views-counter/blob/master/readme/575984445/week.md)
+
 *Copyright © 2022 Alexandra Batrak*
